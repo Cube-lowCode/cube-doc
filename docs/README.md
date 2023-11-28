@@ -1,10 +1,10 @@
 ---
 home: true
-heroImage: cube-doc/assets/logo.png
+heroImage: 'https://p6.1-xian.cn/bx-user/447a642189404884af861065c7df1c2d.png'
 heroText: 魔方低代码
 tagline: 魔方低代码
 actionText: 快速上手 →
-actionLink: /guide/one
+actionLink: /platform/main
 features:
 - title: 简洁至上
   details: 以 Markdown 为中心的项目结构，以最少的配置帮助你专注于写作。

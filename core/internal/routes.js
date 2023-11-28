@@ -9,22 +9,6 @@ import GlobalLayout from "/Users/dzsb-002295/Desktop/JY/other/cube-doc/node_modu
 injectComponentOption(GlobalLayout, 'mixins', rootMixins)
 export const routes = [
   {
-    name: "v-bdd00d46",
-    path: "/guide/one.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-bdd00d46").then(next)
-    },
-  },
-  {
-    name: "v-01fb8b9d",
-    path: "/guide/two.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-01fb8b9d").then(next)
-    },
-  },
-  {
     name: "v-c10530c4",
     path: "/",
     component: GlobalLayout,
@@ -35,6 +19,54 @@ export const routes = [
   {
     path: "/index.html",
     redirect: "/"
+  },
+  {
+    name: "v-8a2871de",
+    path: "/guide/main.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-8a2871de").then(next)
+    },
+  },
+  {
+    name: "v-79cfeb9d",
+    path: "/official/main.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-79cfeb9d").then(next)
+    },
+  },
+  {
+    name: "v-9d74be46",
+    path: "/panorama/main.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-9d74be46").then(next)
+    },
+  },
+  {
+    name: "v-6e9db5f7",
+    path: "/product/main.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-6e9db5f7").then(next)
+    },
+  },
+  {
+    name: "v-17a66c9d",
+    path: "/platform/main.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-17a66c9d").then(next)
+    },
+  },
+  {
+    name: "v-3b14cc5a",
+    path: "/develop/main.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-3b14cc5a").then(next)
+    },
   },
   {
     path: '*',
