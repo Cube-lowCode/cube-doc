@@ -12,6 +12,6 @@ jobs:
       env:
         ACCESS_TOKEN: ${{ secrets.CUBE_DOC }}
         TARGET_REPO: Cube-lowCode/cube-doc
-        TARGET_BRANCH: master
+        TARGET_BRANCH: gh-pages
         BUILD_SCRIPT: yarn && yarn docs:build
         BUILD_DIR: dist
