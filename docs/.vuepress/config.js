@@ -4,6 +4,7 @@ module.exports = {
     title: '魔方低代码',
     description: 'Just playing around',
     temp: './core',
+    base: '/cube-doc/',
     dest: './dist',
       themeConfig: {
         logo: '/assets/logo.png',
