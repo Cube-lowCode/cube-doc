@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: /assets/logo.png
+heroImage: cube-doc/assets/logo.png
 heroText: 魔方低代码
 tagline: 魔方低代码
 actionText: 快速上手 →
