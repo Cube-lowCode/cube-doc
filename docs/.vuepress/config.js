@@ -7,7 +7,7 @@ module.exports = {
     base: '/cube-doc/',
     dest: './dist',
       themeConfig: {
-        logo: '/assets/logo.png',
+        logo: 'cube-doc/assets/logo.png',
         // displayAllHeaders: true, // 默认值：false
         nav: [
           { text: '首页', link: '/' },

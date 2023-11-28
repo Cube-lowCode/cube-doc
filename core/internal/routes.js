@@ -9,18 +9,6 @@ import GlobalLayout from "/Users/dzsb-002295/Desktop/JY/other/cube-doc/node_modu
 injectComponentOption(GlobalLayout, 'mixins', rootMixins)
 export const routes = [
   {
-    name: "v-c10530c4",
-    path: "/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-c10530c4").then(next)
-    },
-  },
-  {
-    path: "/index.html",
-    redirect: "/"
-  },
-  {
     name: "v-bdd00d46",
     path: "/guide/one.html",
     component: GlobalLayout,
@@ -35,6 +23,18 @@ export const routes = [
     beforeEnter: (to, from, next) => {
       ensureAsyncComponentsLoaded("Layout", "v-01fb8b9d").then(next)
     },
+  },
+  {
+    name: "v-c10530c4",
+    path: "/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-c10530c4").then(next)
+    },
+  },
+  {
+    path: "/index.html",
+    redirect: "/"
   },
   {
     path: '*',

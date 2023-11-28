@@ -4,38 +4,9 @@
 export const siteData = {
   "title": "魔方低代码",
   "description": "Just playing around",
-  "base": "/",
+  "base": "/cube-doc/",
   "headTags": [],
   "pages": [
-    {
-      "title": "Home",
-      "frontmatter": {
-        "home": true,
-        "heroImage": "/assets/logo.png",
-        "heroText": "魔方低代码",
-        "tagline": "魔方低代码",
-        "actionText": "快速上手 →",
-        "actionLink": "/zh/guide/",
-        "features": [
-          {
-            "title": "简洁至上",
-            "details": "以 Markdown 为中心的项目结构，以最少的配置帮助你专注于写作。"
-          },
-          {
-            "title": "Vue驱动",
-            "details": "享受 Vue + webpack 的开发体验，在 Markdown 中使用 Vue 组件，同时可以使用 Vue 来开发自定义主题。"
-          },
-          {
-            "title": "高性能",
-            "details": "VuePress 为每个页面预渲染生成静态的 HTML，同时在页面被加载的时候，将作为 SPA 运行。"
-          }
-        ]
-      },
-      "regularPath": "/",
-      "relativePath": "README.md",
-      "key": "v-c10530c4",
-      "path": "/"
-    },
     {
       "title": "快速上手",
       "frontmatter": {},
@@ -67,10 +38,39 @@ export const siteData = {
       "relativePath": "guide/two.md",
       "key": "v-01fb8b9d",
       "path": "/guide/two.html"
+    },
+    {
+      "title": "Home",
+      "frontmatter": {
+        "home": true,
+        "heroImage": "/assets/logo.png",
+        "heroText": "魔方低代码",
+        "tagline": "魔方低代码",
+        "actionText": "快速上手 →",
+        "actionLink": "/guide/one",
+        "features": [
+          {
+            "title": "简洁至上",
+            "details": "以 Markdown 为中心的项目结构，以最少的配置帮助你专注于写作。"
+          },
+          {
+            "title": "Vue驱动",
+            "details": "享受 Vue + webpack 的开发体验，在 Markdown 中使用 Vue 组件，同时可以使用 Vue 来开发自定义主题。"
+          },
+          {
+            "title": "高性能",
+            "details": "VuePress 为每个页面预渲染生成静态的 HTML，同时在页面被加载的时候，将作为 SPA 运行。"
+          }
+        ]
+      },
+      "regularPath": "/",
+      "relativePath": "README.md",
+      "key": "v-c10530c4",
+      "path": "/"
     }
   ],
   "themeConfig": {
-    "logo": "/assets/logo.png",
+    "logo": "cube-doc/assets/logo.png",
     "nav": [
       {
         "text": "首页",
