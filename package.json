@@ -8,7 +8,7 @@
   },
   "scripts": {
     "docs:dev": "vuepress dev docs",
-    "build:test": "vuepress build docs"
+    "docs:build": "vuepress build docs"
   },
   "dependencies": {
     "vue": "^2.6.12",
