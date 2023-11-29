@@ -29,6 +29,14 @@ export const routes = [
     },
   },
   {
+    name: "v-79cfeb9d",
+    path: "/official/main.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-79cfeb9d").then(next)
+    },
+  },
+  {
     name: "v-8a2871de",
     path: "/guide/main.html",
     component: GlobalLayout,
@@ -37,11 +45,11 @@ export const routes = [
     },
   },
   {
-    name: "v-79cfeb9d",
-    path: "/official/main.html",
+    name: "v-6e9db5f7",
+    path: "/product/main.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-79cfeb9d").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-6e9db5f7").then(next)
     },
   },
   {
@@ -58,14 +66,6 @@ export const routes = [
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
       ensureAsyncComponentsLoaded("Layout", "v-9d74be46").then(next)
-    },
-  },
-  {
-    name: "v-6e9db5f7",
-    path: "/product/main.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-6e9db5f7").then(next)
     },
   },
   {

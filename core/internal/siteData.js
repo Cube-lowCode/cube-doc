@@ -35,8 +35,8 @@ export const siteData = {
       "relativePath": "README.md",
       "key": "v-c10530c4",
       "path": "/",
-      "lastUpdated": "11/28/2023, 8:06:52 PM",
-      "lastUpdatedTimestamp": 1701173212000
+      "lastUpdated": "11/29/2023, 7:26:27 PM",
+      "lastUpdatedTimestamp": 1701257187000
     },
     {
       "title": "组件开发",
@@ -71,33 +71,6 @@ export const siteData = {
       "lastUpdatedTimestamp": 1701173212000
     },
     {
-      "title": "快速上手",
-      "frontmatter": {},
-      "regularPath": "/guide/main.html",
-      "relativePath": "guide/main.md",
-      "key": "v-8a2871de",
-      "path": "/guide/main.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "如何创建一个项目",
-          "slug": "如何创建一个项目"
-        },
-        {
-          "level": 3,
-          "title": "新建H5项目",
-          "slug": "新建h5项目"
-        },
-        {
-          "level": 3,
-          "title": "页面搭建",
-          "slug": "页面搭建"
-        }
-      ],
-      "lastUpdated": "11/28/2023, 8:06:52 PM",
-      "lastUpdatedTimestamp": 1701173212000
-    },
-    {
       "title": "官方组件",
       "frontmatter": {},
       "regularPath": "/official/main.html",
@@ -125,7 +98,81 @@ export const siteData = {
       "lastUpdatedTimestamp": 1701173212000
     },
     {
-      "title": "平台概览",
+      "title": "快速上手",
+      "frontmatter": {},
+      "regularPath": "/guide/main.html",
+      "relativePath": "guide/main.md",
+      "key": "v-8a2871de",
+      "path": "/guide/main.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "如何创建一个项目",
+          "slug": "如何创建一个项目"
+        },
+        {
+          "level": 3,
+          "title": "新建H5项目",
+          "slug": "新建h5项目"
+        },
+        {
+          "level": 3,
+          "title": "页面搭建",
+          "slug": "页面搭建"
+        }
+      ],
+      "lastUpdated": "11/28/2023, 8:06:52 PM",
+      "lastUpdatedTimestamp": 1701173212000
+    },
+    {
+      "title": "产品介绍",
+      "frontmatter": {},
+      "regularPath": "/product/main.html",
+      "relativePath": "product/main.md",
+      "key": "v-6e9db5f7",
+      "path": "/product/main.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "行业背景",
+          "slug": "行业背景"
+        },
+        {
+          "level": 2,
+          "title": "业务背景",
+          "slug": "业务背景"
+        },
+        {
+          "level": 2,
+          "title": "功能介绍",
+          "slug": "功能介绍"
+        },
+        {
+          "level": 3,
+          "title": "登录页面",
+          "slug": "登录页面"
+        },
+        {
+          "level": 3,
+          "title": "团队管理",
+          "slug": "团队管理"
+        },
+        {
+          "level": 3,
+          "title": "编辑器",
+          "slug": "编辑器"
+        },
+        {
+          "level": 3,
+          "title": "个人信息",
+          "slug": "个人信息"
+        }
+      ],
+      "lastUpdated": "11/28/2023, 8:06:52 PM",
+      "lastUpdatedTimestamp": 1701173212000
+    },
+    {
+      "title": "认识cube",
       "frontmatter": {},
       "regularPath": "/platform/main.html",
       "relativePath": "platform/main.md",
@@ -134,13 +181,8 @@ export const siteData = {
       "headers": [
         {
           "level": 2,
-          "title": "基本介绍",
-          "slug": "基本介绍"
-        },
-        {
-          "level": 2,
-          "title": "为什么是Cube？",
-          "slug": "为什么是cube"
+          "title": "功能特点",
+          "slug": "功能特点"
         }
       ],
       "lastUpdated": "11/28/2023, 8:06:52 PM",
@@ -163,33 +205,6 @@ export const siteData = {
           "level": 2,
           "title": "时序图",
           "slug": "时序图"
-        }
-      ],
-      "lastUpdated": "11/28/2023, 8:06:52 PM",
-      "lastUpdatedTimestamp": 1701173212000
-    },
-    {
-      "title": "产品介绍",
-      "frontmatter": {},
-      "regularPath": "/product/main.html",
-      "relativePath": "product/main.md",
-      "key": "v-6e9db5f7",
-      "path": "/product/main.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "登陆注册",
-          "slug": "登陆注册"
-        },
-        {
-          "level": 2,
-          "title": "团队管理",
-          "slug": "团队管理"
-        },
-        {
-          "level": 2,
-          "title": "组件库管理",
-          "slug": "组件库管理"
         }
       ],
       "lastUpdated": "11/28/2023, 8:06:52 PM",
