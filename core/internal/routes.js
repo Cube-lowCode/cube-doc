@@ -4,16 +4,16 @@
 
 import { injectComponentOption, ensureAsyncComponentsLoaded } from '@app/util'
 import rootMixins from '@internal/root-mixins'
-import GlobalLayout from "/Users/dzsb-002295/Desktop/JY/other/cube-doc/node_modules/@vuepress/core/lib/client/components/GlobalLayout.vue"
+import GlobalLayout from "/Users/dz0400878/Desktop/cube-doc/cube-doc/node_modules/@vuepress/core/lib/client/components/GlobalLayout.vue"
 
 injectComponentOption(GlobalLayout, 'mixins', rootMixins)
 export const routes = [
   {
-    name: "v-c10530c4",
+    name: "v-1b1ee7ee",
     path: "/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-c10530c4").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-1b1ee7ee").then(next)
     },
   },
   {
@@ -21,6 +21,7 @@ export const routes = [
     redirect: "/"
   },
   {
+<<<<<<< Updated upstream
     name: "v-8a2871de",
     path: "/guide/main.html",
     component: GlobalLayout,
@@ -42,30 +43,69 @@ export const routes = [
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
       ensureAsyncComponentsLoaded("Layout", "v-9d74be46").then(next)
-    },
-  },
-  {
-    name: "v-6e9db5f7",
-    path: "/product/main.html",
+=======
+    name: "v-37e2bcc6",
+    path: "/guide/main.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-6e9db5f7").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-37e2bcc6").then(next)
+>>>>>>> Stashed changes
     },
   },
   {
-    name: "v-17a66c9d",
-    path: "/platform/main.html",
+    name: "v-6bde2112",
+    path: "/assemb/main.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-17a66c9d").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-6bde2112").then(next)
     },
   },
   {
+    name: "v-7ae0ad08",
+    path: "/develop/main.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-7ae0ad08").then(next)
+    },
+  },
+  {
+<<<<<<< Updated upstream
     name: "v-3b14cc5a",
     path: "/develop/main.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
       ensureAsyncComponentsLoaded("Layout", "v-3b14cc5a").then(next)
+=======
+    name: "v-498e8a5c",
+    path: "/panorama/main.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-498e8a5c").then(next)
+    },
+  },
+  {
+    name: "v-b879f4dc",
+    path: "/official/main.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-b879f4dc").then(next)
+    },
+  },
+  {
+    name: "v-41998692",
+    path: "/platform/main.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-41998692").then(next)
+    },
+  },
+  {
+    name: "v-0708c92c",
+    path: "/product/main.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-0708c92c").then(next)
+>>>>>>> Stashed changes
     },
   },
   {

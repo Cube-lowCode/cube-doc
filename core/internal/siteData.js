@@ -33,7 +33,7 @@ export const siteData = {
       },
       "regularPath": "/",
       "relativePath": "README.md",
-      "key": "v-c10530c4",
+      "key": "v-1b1ee7ee",
       "path": "/",
       "lastUpdated": "11/28/2023, 7:15:14 PM",
       "lastUpdatedTimestamp": 1701170114000
@@ -154,11 +154,68 @@ export const siteData = {
       ]
     },
     {
+      "title": "快速上手",
+      "frontmatter": {},
+      "regularPath": "/guide/main.html",
+      "relativePath": "guide/main.md",
+      "key": "v-37e2bcc6",
+      "path": "/guide/main.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "如何创建一个项目",
+          "slug": "如何创建一个项目"
+        },
+        {
+          "level": 3,
+          "title": "新建H5项目",
+          "slug": "新建h5项目"
+        },
+        {
+          "level": 3,
+          "title": "页面搭建",
+          "slug": "页面搭建"
+        }
+      ],
+      "lastUpdated": "11/28/2023, 8:06:52 PM",
+      "lastUpdatedTimestamp": 1701173212000
+    },
+    {
+      "title": "模版标签管理",
+      "frontmatter": {},
+      "regularPath": "/assemb/main.html",
+      "relativePath": "assemb/main.md",
+      "key": "v-6bde2112",
+      "path": "/assemb/main.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "模版列表",
+          "slug": "模版列表"
+        },
+        {
+          "level": 2,
+          "title": "标签管理",
+          "slug": "标签管理"
+        },
+        {
+          "level": 2,
+          "title": "设置模版",
+          "slug": "设置模版"
+        },
+        {
+          "level": 2,
+          "title": "选择模版创建项目",
+          "slug": "选择模版创建项目"
+        }
+      ]
+    },
+    {
       "title": "组件开发",
       "frontmatter": {},
       "regularPath": "/develop/main.html",
       "relativePath": "develop/main.md",
-      "key": "v-3b14cc5a",
+      "key": "v-7ae0ad08",
       "path": "/develop/main.html",
       "headers": [
         {
@@ -181,7 +238,126 @@ export const siteData = {
           "title": "项目使用",
           "slug": "项目使用"
         }
+<<<<<<< Updated upstream
       ]
+=======
+      ],
+      "lastUpdated": "11/28/2023, 8:06:52 PM",
+      "lastUpdatedTimestamp": 1701173212000
+    },
+    {
+      "title": "一秒看懂Cube",
+      "frontmatter": {},
+      "regularPath": "/panorama/main.html",
+      "relativePath": "panorama/main.md",
+      "key": "v-498e8a5c",
+      "path": "/panorama/main.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "架构图",
+          "slug": "架构图"
+        },
+        {
+          "level": 2,
+          "title": "时序图",
+          "slug": "时序图"
+        }
+      ],
+      "lastUpdated": "11/29/2023, 8:02:03 PM",
+      "lastUpdatedTimestamp": 1701259323000
+    },
+    {
+      "title": "官方组件",
+      "frontmatter": {},
+      "regularPath": "/official/main.html",
+      "relativePath": "official/main.md",
+      "key": "v-b879f4dc",
+      "path": "/official/main.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "图片",
+          "slug": "图片"
+        },
+        {
+          "level": 2,
+          "title": "榜单",
+          "slug": "榜单"
+        },
+        {
+          "level": 2,
+          "title": "任务",
+          "slug": "任务"
+        }
+      ],
+      "lastUpdated": "11/28/2023, 8:06:52 PM",
+      "lastUpdatedTimestamp": 1701173212000
+    },
+    {
+      "title": "认识cube",
+      "frontmatter": {},
+      "regularPath": "/platform/main.html",
+      "relativePath": "platform/main.md",
+      "key": "v-41998692",
+      "path": "/platform/main.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "功能特点",
+          "slug": "功能特点"
+        }
+      ],
+      "lastUpdated": "11/29/2023, 11:46:06 AM",
+      "lastUpdatedTimestamp": 1701229566000
+    },
+    {
+      "title": "产品介绍",
+      "frontmatter": {},
+      "regularPath": "/product/main.html",
+      "relativePath": "product/main.md",
+      "key": "v-0708c92c",
+      "path": "/product/main.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "行业背景",
+          "slug": "行业背景"
+        },
+        {
+          "level": 2,
+          "title": "业务背景",
+          "slug": "业务背景"
+        },
+        {
+          "level": 2,
+          "title": "功能介绍",
+          "slug": "功能介绍"
+        },
+        {
+          "level": 3,
+          "title": "登录页面",
+          "slug": "登录页面"
+        },
+        {
+          "level": 3,
+          "title": "团队管理",
+          "slug": "团队管理"
+        },
+        {
+          "level": 3,
+          "title": "编辑器",
+          "slug": "编辑器"
+        },
+        {
+          "level": 3,
+          "title": "个人信息",
+          "slug": "个人信息"
+        }
+      ],
+      "lastUpdated": "11/29/2023, 11:46:06 AM",
+      "lastUpdatedTimestamp": 1701229566000
+>>>>>>> Stashed changes
     }
   ],
   "themeConfig": {
