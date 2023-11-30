@@ -8,42 +8,11 @@ export const siteData = {
   "headTags": [],
   "pages": [
     {
-      "title": "Home",
-      "frontmatter": {
-        "home": true,
-        "heroImage": "https://p6.1-xian.cn/bx-user/447a642189404884af861065c7df1c2d.png",
-        "heroText": "魔方低代码",
-        "tagline": "创意无限，打造复杂营收活动的首选",
-        "actionText": "快速上手 →",
-        "actionLink": "/platform/main",
-        "features": [
-          {
-            "title": "简单易懂",
-            "details": "组件拖拽配置，傻瓜化实现你的营销、营收需求"
-          },
-          {
-            "title": "组件沉淀",
-            "details": "支持自定义组件，将团队内长期使用的玩法沉淀输出，同样可以拖拽完成搭建"
-          },
-          {
-            "title": "玩法输出",
-            "details": "平台将自身玩法抽象组件，如榜单、任务等数十款，开箱即用，省去业务开发成本"
-          }
-        ]
-      },
-      "regularPath": "/",
-      "relativePath": "README.md",
-      "key": "v-c10530c4",
-      "path": "/",
-      "lastUpdated": "11/29/2023, 7:26:27 PM",
-      "lastUpdatedTimestamp": 1701257187000
-    },
-    {
       "title": "组件开发",
       "frontmatter": {},
       "regularPath": "/develop/main.html",
       "relativePath": "develop/main.md",
-      "key": "v-3b14cc5a",
+      "key": "v-7ae0ad08",
       "path": "/develop/main.html",
       "headers": [
         {
@@ -71,38 +40,41 @@ export const siteData = {
       "lastUpdatedTimestamp": 1701173212000
     },
     {
-      "title": "官方组件",
+      "title": "模版标签管理",
       "frontmatter": {},
-      "regularPath": "/official/main.html",
-      "relativePath": "official/main.md",
-      "key": "v-79cfeb9d",
-      "path": "/official/main.html",
+      "regularPath": "/assemb/main.html",
+      "relativePath": "assemb/main.md",
+      "key": "v-6bde2112",
+      "path": "/assemb/main.html",
       "headers": [
         {
           "level": 2,
-          "title": "图片",
-          "slug": "图片"
+          "title": "模版列表",
+          "slug": "模版列表"
         },
         {
           "level": 2,
-          "title": "榜单",
-          "slug": "榜单"
+          "title": "标签管理",
+          "slug": "标签管理"
         },
         {
           "level": 2,
-          "title": "任务",
-          "slug": "任务"
+          "title": "设置模版",
+          "slug": "设置模版"
+        },
+        {
+          "level": 2,
+          "title": "选择模版创建项目",
+          "slug": "选择模版创建项目"
         }
-      ],
-      "lastUpdated": "11/28/2023, 8:06:52 PM",
-      "lastUpdatedTimestamp": 1701173212000
+      ]
     },
     {
       "title": "快速上手",
       "frontmatter": {},
       "regularPath": "/guide/main.html",
       "relativePath": "guide/main.md",
-      "key": "v-8a2871de",
+      "key": "v-37e2bcc6",
       "path": "/guide/main.html",
       "headers": [
         {
@@ -125,11 +97,91 @@ export const siteData = {
       "lastUpdatedTimestamp": 1701173212000
     },
     {
+      "title": "官方组件",
+      "frontmatter": {},
+      "regularPath": "/official/main.html",
+      "relativePath": "official/main.md",
+      "key": "v-b879f4dc",
+      "path": "/official/main.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "图片",
+          "slug": "图片"
+        },
+        {
+          "level": 2,
+          "title": "榜单",
+          "slug": "榜单"
+        },
+        {
+          "level": 2,
+          "title": "任务",
+          "slug": "任务"
+        }
+      ],
+      "lastUpdated": "11/28/2023, 8:06:52 PM",
+      "lastUpdatedTimestamp": 1701173212000
+    },
+    {
+      "title": "Home",
+      "frontmatter": {
+        "home": true,
+        "heroImage": "https://p6.1-xian.cn/bx-user/447a642189404884af861065c7df1c2d.png",
+        "heroText": "魔方低代码",
+        "tagline": "创意无限，打造复杂营收活动的首选",
+        "actionText": "快速上手 →",
+        "actionLink": "/platform/main",
+        "features": [
+          {
+            "title": "简单易懂",
+            "details": "组件拖拽配置，傻瓜化实现你的营销、营收需求"
+          },
+          {
+            "title": "组件沉淀",
+            "details": "支持自定义组件，将团队内长期使用的玩法沉淀输出，同样可以拖拽完成搭建"
+          },
+          {
+            "title": "玩法输出",
+            "details": "平台将自身玩法抽象组件，如榜单、任务等数十款，开箱即用，省去业务开发成本"
+          }
+        ]
+      },
+      "regularPath": "/",
+      "relativePath": "README.md",
+      "key": "v-1b1ee7ee",
+      "path": "/",
+      "lastUpdated": "11/29/2023, 7:26:27 PM",
+      "lastUpdatedTimestamp": 1701257187000
+    },
+    {
+      "title": "一秒看懂Cube",
+      "frontmatter": {},
+      "regularPath": "/panorama/main.html",
+      "relativePath": "panorama/main.md",
+      "key": "v-498e8a5c",
+      "path": "/panorama/main.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "架构图",
+          "slug": "架构图"
+        },
+        {
+          "level": 2,
+          "title": "时序图",
+          "slug": "时序图"
+        }
+      ],
+      "lastUpdated": "11/29/2023, 8:02:03 PM",
+      "lastUpdatedTimestamp": 1701259323000
+    },
+    {
       "title": "产品介绍",
       "frontmatter": {},
       "regularPath": "/product/main.html",
       "relativePath": "product/main.md",
-      "key": "v-6e9db5f7",
+      "key": "v-0708c92c",
       "path": "/product/main.html",
       "headers": [
         {
@@ -168,15 +220,15 @@ export const siteData = {
           "slug": "个人信息"
         }
       ],
-      "lastUpdated": "11/28/2023, 8:06:52 PM",
-      "lastUpdatedTimestamp": 1701173212000
+      "lastUpdated": "11/29/2023, 11:46:06 AM",
+      "lastUpdatedTimestamp": 1701229566000
     },
     {
       "title": "认识cube",
       "frontmatter": {},
       "regularPath": "/platform/main.html",
       "relativePath": "platform/main.md",
-      "key": "v-17a66c9d",
+      "key": "v-41998692",
       "path": "/platform/main.html",
       "headers": [
         {
@@ -185,30 +237,8 @@ export const siteData = {
           "slug": "功能特点"
         }
       ],
-      "lastUpdated": "11/28/2023, 8:06:52 PM",
-      "lastUpdatedTimestamp": 1701173212000
-    },
-    {
-      "title": "一秒看懂Cube",
-      "frontmatter": {},
-      "regularPath": "/panorama/main.html",
-      "relativePath": "panorama/main.md",
-      "key": "v-9d74be46",
-      "path": "/panorama/main.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "架构图",
-          "slug": "架构图"
-        },
-        {
-          "level": 2,
-          "title": "时序图",
-          "slug": "时序图"
-        }
-      ],
-      "lastUpdated": "11/28/2023, 8:06:52 PM",
-      "lastUpdatedTimestamp": 1701173212000
+      "lastUpdated": "11/29/2023, 11:46:06 AM",
+      "lastUpdatedTimestamp": 1701229566000
     }
   ],
   "themeConfig": {
