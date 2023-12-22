@@ -39,28 +39,6 @@ export const siteData = {
       "lastUpdatedTimestamp": 1701257187000
     },
     {
-      "title": "一秒看懂Cube",
-      "frontmatter": {},
-      "regularPath": "/panorama/main.html",
-      "relativePath": "panorama/main.md",
-      "key": "v-9d74be46",
-      "path": "/panorama/main.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "架构图",
-          "slug": "架构图"
-        },
-        {
-          "level": 2,
-          "title": "时序图",
-          "slug": "时序图"
-        }
-      ],
-      "lastUpdated": "11/29/2023, 8:02:03 PM",
-      "lastUpdatedTimestamp": 1701259323000
-    },
-    {
       "title": "官方组件",
       "frontmatter": {},
       "regularPath": "/official/main.html",
@@ -68,11 +46,6 @@ export const siteData = {
       "key": "v-79cfeb9d",
       "path": "/official/main.html",
       "headers": [
-        {
-          "level": 2,
-          "title": "图片",
-          "slug": "图片"
-        },
         {
           "level": 2,
           "title": "榜单",
@@ -84,8 +57,8 @@ export const siteData = {
           "slug": "任务"
         }
       ],
-      "lastUpdated": "11/28/2023, 8:06:52 PM",
-      "lastUpdatedTimestamp": 1701173212000
+      "lastUpdated": "12/22/2023, 7:57:17 PM",
+      "lastUpdatedTimestamp": 1703246237000
     },
     {
       "title": "组件开发",
@@ -120,21 +93,56 @@ export const siteData = {
       "lastUpdatedTimestamp": 1701173212000
     },
     {
-      "title": "认识cube",
+      "title": "模版标签管理",
       "frontmatter": {},
-      "regularPath": "/platform/main.html",
-      "relativePath": "platform/main.md",
-      "key": "v-17a66c9d",
-      "path": "/platform/main.html",
+      "regularPath": "/assemb/main.html",
+      "relativePath": "assemb/main.md",
+      "key": "v-50cdc49d",
+      "path": "/assemb/main.html",
       "headers": [
         {
           "level": 2,
-          "title": "功能特点",
-          "slug": "功能特点"
+          "title": "模版列表",
+          "slug": "模版列表"
+        },
+        {
+          "level": 2,
+          "title": "标签管理",
+          "slug": "标签管理"
+        },
+        {
+          "level": 2,
+          "title": "设置模版",
+          "slug": "设置模版"
+        },
+        {
+          "level": 2,
+          "title": "选择模版创建项目",
+          "slug": "选择模版创建项目"
+        }
+      ]
+    },
+    {
+      "title": "一秒看懂Cube",
+      "frontmatter": {},
+      "regularPath": "/panorama/main.html",
+      "relativePath": "panorama/main.md",
+      "key": "v-9d74be46",
+      "path": "/panorama/main.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "架构图",
+          "slug": "架构图"
+        },
+        {
+          "level": 2,
+          "title": "时序图",
+          "slug": "时序图"
         }
       ],
-      "lastUpdated": "11/29/2023, 11:46:06 AM",
-      "lastUpdatedTimestamp": 1701229566000
+      "lastUpdated": "12/22/2023, 7:57:17 PM",
+      "lastUpdatedTimestamp": 1703246237000
     },
     {
       "title": "产品介绍",
@@ -180,8 +188,25 @@ export const siteData = {
           "slug": "个人信息"
         }
       ],
-      "lastUpdated": "11/29/2023, 11:46:06 AM",
-      "lastUpdatedTimestamp": 1701229566000
+      "lastUpdated": "12/22/2023, 7:57:17 PM",
+      "lastUpdatedTimestamp": 1703246237000
+    },
+    {
+      "title": "认识cube",
+      "frontmatter": {},
+      "regularPath": "/platform/main.html",
+      "relativePath": "platform/main.md",
+      "key": "v-17a66c9d",
+      "path": "/platform/main.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "功能特点",
+          "slug": "功能特点"
+        }
+      ],
+      "lastUpdated": "12/22/2023, 7:57:17 PM",
+      "lastUpdatedTimestamp": 1703246237000
     },
     {
       "title": "快速上手",
