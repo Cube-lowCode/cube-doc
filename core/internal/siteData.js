@@ -39,6 +39,55 @@ export const siteData = {
       "lastUpdatedTimestamp": 1701257187000
     },
     {
+      "title": "一秒看懂Cube",
+      "frontmatter": {},
+      "regularPath": "/panorama/main.html",
+      "relativePath": "panorama/main.md",
+      "key": "v-9d74be46",
+      "path": "/panorama/main.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "架构图",
+          "slug": "架构图"
+        },
+        {
+          "level": 2,
+          "title": "时序图",
+          "slug": "时序图"
+        }
+      ],
+      "lastUpdated": "11/29/2023, 8:02:03 PM",
+      "lastUpdatedTimestamp": 1701259323000
+    },
+    {
+      "title": "官方组件",
+      "frontmatter": {},
+      "regularPath": "/official/main.html",
+      "relativePath": "official/main.md",
+      "key": "v-79cfeb9d",
+      "path": "/official/main.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "图片",
+          "slug": "图片"
+        },
+        {
+          "level": 2,
+          "title": "榜单",
+          "slug": "榜单"
+        },
+        {
+          "level": 2,
+          "title": "任务",
+          "slug": "任务"
+        }
+      ],
+      "lastUpdated": "11/28/2023, 8:06:52 PM",
+      "lastUpdatedTimestamp": 1701173212000
+    },
+    {
       "title": "组件开发",
       "frontmatter": {},
       "regularPath": "/develop/main.html",
@@ -71,58 +120,21 @@ export const siteData = {
       "lastUpdatedTimestamp": 1701173212000
     },
     {
-      "title": "官方组件",
+      "title": "认识cube",
       "frontmatter": {},
-      "regularPath": "/official/main.html",
-      "relativePath": "official/main.md",
-      "key": "v-79cfeb9d",
-      "path": "/official/main.html",
+      "regularPath": "/platform/main.html",
+      "relativePath": "platform/main.md",
+      "key": "v-17a66c9d",
+      "path": "/platform/main.html",
       "headers": [
         {
           "level": 2,
-          "title": "图片",
-          "slug": "图片"
-        },
-        {
-          "level": 2,
-          "title": "榜单",
-          "slug": "榜单"
-        },
-        {
-          "level": 2,
-          "title": "任务",
-          "slug": "任务"
+          "title": "功能特点",
+          "slug": "功能特点"
         }
       ],
-      "lastUpdated": "11/28/2023, 8:06:52 PM",
-      "lastUpdatedTimestamp": 1701173212000
-    },
-    {
-      "title": "快速上手",
-      "frontmatter": {},
-      "regularPath": "/guide/main.html",
-      "relativePath": "guide/main.md",
-      "key": "v-8a2871de",
-      "path": "/guide/main.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "如何创建一个项目",
-          "slug": "如何创建一个项目"
-        },
-        {
-          "level": 3,
-          "title": "新建H5项目",
-          "slug": "新建h5项目"
-        },
-        {
-          "level": 3,
-          "title": "页面搭建",
-          "slug": "页面搭建"
-        }
-      ],
-      "lastUpdated": "11/28/2023, 8:06:52 PM",
-      "lastUpdatedTimestamp": 1701173212000
+      "lastUpdated": "11/29/2023, 11:46:06 AM",
+      "lastUpdatedTimestamp": 1701229566000
     },
     {
       "title": "产品介绍",
@@ -168,43 +180,31 @@ export const siteData = {
           "slug": "个人信息"
         }
       ],
-      "lastUpdated": "11/28/2023, 8:06:52 PM",
-      "lastUpdatedTimestamp": 1701173212000
+      "lastUpdated": "11/29/2023, 11:46:06 AM",
+      "lastUpdatedTimestamp": 1701229566000
     },
     {
-      "title": "认识cube",
+      "title": "快速上手",
       "frontmatter": {},
-      "regularPath": "/platform/main.html",
-      "relativePath": "platform/main.md",
-      "key": "v-17a66c9d",
-      "path": "/platform/main.html",
+      "regularPath": "/guide/main.html",
+      "relativePath": "guide/main.md",
+      "key": "v-8a2871de",
+      "path": "/guide/main.html",
       "headers": [
         {
           "level": 2,
-          "title": "功能特点",
-          "slug": "功能特点"
-        }
-      ],
-      "lastUpdated": "11/28/2023, 8:06:52 PM",
-      "lastUpdatedTimestamp": 1701173212000
-    },
-    {
-      "title": "一秒看懂Cube",
-      "frontmatter": {},
-      "regularPath": "/panorama/main.html",
-      "relativePath": "panorama/main.md",
-      "key": "v-9d74be46",
-      "path": "/panorama/main.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "架构图",
-          "slug": "架构图"
+          "title": "如何创建一个项目",
+          "slug": "如何创建一个项目"
         },
         {
-          "level": 2,
-          "title": "时序图",
-          "slug": "时序图"
+          "level": 3,
+          "title": "新建H5项目",
+          "slug": "新建h5项目"
+        },
+        {
+          "level": 3,
+          "title": "页面搭建",
+          "slug": "页面搭建"
         }
       ],
       "lastUpdated": "11/28/2023, 8:06:52 PM",
