@@ -8,6 +8,33 @@ export const siteData = {
   "headTags": [],
   "pages": [
     {
+      "title": "快速上手",
+      "frontmatter": {},
+      "regularPath": "/guide/main.html",
+      "relativePath": "guide/main.md",
+      "key": "v-8a2871de",
+      "path": "/guide/main.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "如何创建一个项目",
+          "slug": "如何创建一个项目"
+        },
+        {
+          "level": 3,
+          "title": "新建H5项目",
+          "slug": "新建h5项目"
+        },
+        {
+          "level": 3,
+          "title": "页面搭建",
+          "slug": "页面搭建"
+        }
+      ],
+      "lastUpdated": "11/28/2023, 8:06:52 PM",
+      "lastUpdatedTimestamp": 1701173212000
+    },
+    {
       "title": "Home",
       "frontmatter": {
         "home": true,
@@ -52,9 +79,29 @@ export const siteData = {
           "slug": "榜单"
         },
         {
+          "level": 3,
+          "title": "基础配置",
+          "slug": "基础配置"
+        },
+        {
+          "level": 3,
+          "title": "数据配置",
+          "slug": "数据配置"
+        },
+        {
+          "level": 3,
+          "title": "数据上报",
+          "slug": "数据上报"
+        },
+        {
           "level": 2,
           "title": "任务",
           "slug": "任务"
+        },
+        {
+          "level": 3,
+          "title": "数据上报",
+          "slug": "数据上报-2"
         }
       ],
       "lastUpdated": "12/22/2023, 7:57:17 PM",
@@ -120,7 +167,9 @@ export const siteData = {
           "title": "选择模版创建项目",
           "slug": "选择模版创建项目"
         }
-      ]
+      ],
+      "lastUpdated": "11/30/2023, 11:47:50 AM",
+      "lastUpdatedTimestamp": 1701316070000
     },
     {
       "title": "一秒看懂Cube",
@@ -207,33 +256,6 @@ export const siteData = {
       ],
       "lastUpdated": "12/22/2023, 7:57:17 PM",
       "lastUpdatedTimestamp": 1703246237000
-    },
-    {
-      "title": "快速上手",
-      "frontmatter": {},
-      "regularPath": "/guide/main.html",
-      "relativePath": "guide/main.md",
-      "key": "v-8a2871de",
-      "path": "/guide/main.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "如何创建一个项目",
-          "slug": "如何创建一个项目"
-        },
-        {
-          "level": 3,
-          "title": "新建H5项目",
-          "slug": "新建h5项目"
-        },
-        {
-          "level": 3,
-          "title": "页面搭建",
-          "slug": "页面搭建"
-        }
-      ],
-      "lastUpdated": "11/28/2023, 8:06:52 PM",
-      "lastUpdatedTimestamp": 1701173212000
     }
   ],
   "themeConfig": {
